@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F;
+}
+
+.header {
+  width: 1024px;
+  margin:0 auto;
+  display: flex;
+  justify-content:space-between;
+}
+
+.header-logo {
+  height:70px;
+}
+
+.nav-list-item {
+  list-style-type: none;
+  padding: 0 30px;
+  font-size:16px;
+  color: #FAFAFA;
+  display: inline-block;
+  line-height: 70px;
+}
+
+.main-visual {
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.main-visual-heading {
+  font-size: 64px;
+  color: #FAFAFA;
+  margin-bottom: 10px;
+}
+
+.main-visual-text {
+  font-size: 20px;
+  color: #FAFAFA;
+}
+
+.main-content {
+  width:100%;
+}
+
+.main-content:nth-child(odd) {
+  background-color: #ECEFF1;
+}
+
+.main-area {
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.portfolio-area {
+  width: 920px;
+}
+
+.feature-area {
+  width: 960px;
+}
+
+.main-heading {
+  font-size: 32px;
+  color: #000;
+  text-align: center;
+}
+
+.color-bar {
+  margin: 8px auto 0 auto;
+  height: 3px;
+  width: 70px;
+  background-color: #EC715F;
+}
+
+.main-text {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}
+
+.portfolio-image-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-image {
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.portfolio-image:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+  margin-bottom: 10px;
+}
+
+.portfolio-image:nth-child(2) {
+  background-image: url(img/websuku.png);
+  margin: 0 10px 10px 10px;
+}
+
+.portfolio-image:nth-child(3) {
+  background-image: url(img/write.jpg);
+  margin-bottom: 10px;
+}
+
+.portfolio-image:nth-child(4) {
+  background-image: url(img/webcamp.png);
+}
+
+.portfolio-image:nth-child(5) {
+  background-image: url(img/talk.jpg);
+  margin: 0 10px 0 10px;
+}
+
+.portfolio-image:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-content {
+  width: 320px;
+}
+
+.feature-content:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.feature-logo {
+  font-size: 60px;
+  text-align: center;
+}
+
+.feature-heading {
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.feature-text {
+  font-size: 16px;
+  color: #000;
+}
