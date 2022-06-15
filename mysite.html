@@ -5,30 +5,31 @@
     <meta nam="viewport" content="width=device-width,initial-scale=1.0">
     <script src="https://kit.fontawesome.com/cdd461d8d6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.ico">
     <title>WALS成果物</title>
   </head>
   <body>
     <header>
       <div class="header">
-        <img class="header-logo" src="img/logo.png">
+        <a href="#top"><img class="header-logo" src="img/logo.png"></a>
         <nav>
           <ul class="nav-list">
-            <li class="nav-list-item">Portfolio</li>
-            <li class="nav-list-item">Feature</li>
-            <li class="nav-list-item">Profile</li>
-            <li class="nav-list-item">Contact</li>
+            <a href="#portfolio"><li class="nav-list-item">Portfolio</li></a>
+            <a href="#feature"><li class="nav-list-item">Feature</li></a>
+            <a href="#profile"><li class="nav-list-item">Profile</li></a>
+            <a href="#contact"><li class="nav-list-item">Contact</li></a>
           </ul>
         </nav>
       </div>
     </header>
-    <div class="main-visual">
+    <div class="main-visual" id="top">
       <div class="main-visual-content">
         <h1 class="main-visual-heading">Lorem Ipsum</h1>
         <p class="main-visual-text">simply dummy text of the printing</p>
       </div>
     </div>
     <main>
-      <div class="main-content">
+      <div class="main-content" id="portfolio">
         <div class="portfolio-area main-area">
           <h1 class="main-heading">Portfolio</h1>
           <div class="color-bar"></div>
@@ -45,7 +46,7 @@
           </div>
         </div>
       </div>
-      <div class="main-content">
+      <div class="main-content" id="feature">
         <div class="feature-area main-area">
           <h1 class="main-heading">Feature</h1>
           <div class="color-bar"></div>
@@ -56,7 +57,7 @@
             <div class="feature-content">
               <h1 class="feature-logo"><i class="fa-solid fa-code"></i></h1>
               <h4 class="feature-heading">Strength1</h4>
-              <p class="feature-text">
+              <p class="content-text">
                 Contrary to popular belief, Lorem Ipsum<br>
                 is not simply random text. It has roots<br>
                 in a piece of classical Latin literature<br>
@@ -70,7 +71,7 @@
               <div class="feature-content">
               <h1 class="feature-logo"><i class="fas fa-desktop-alt"></i></h1>
               <h4 class="feature-heading">Strength2</h4>
-              <p class="feature-text">
+              <p class="content-text">
                 Contrary to popular belief, Lorem Ipsum<br>
                 is not simply random text. It has roots<br>
                 in a piece of classical Latin literature<br>
@@ -84,7 +85,7 @@
             <div class="feature-content">
               <h1 class="feature-logo"><i class="fas fa-cogs"></i></h1>
               <h4 class="feature-heading">Strength3</h4>
-              <p class="feature-text">
+              <p class="content-text">
                 Contrary to popular belief, Lorem Ipsum<br>
                 is not simply random text. It has roots<br>
                 in a piece of classical Latin literature<br>
@@ -98,8 +99,74 @@
           </div>
         </div>
       </div>
-      <div class="profile"></div>
-      <div class="contact"></div>
+      <div class="main-content" id="profile">
+        <div class="profile-area main-area">
+          <h1 class="main-heading">Profile</h1>
+          <div class="color-bar"></div>
+          <p class="main-text">It is a long established fact that a reader will be distracted by the readable<br>
+            content of a page when looking at its layout.<br>
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+          <div class="content-box">
+            <div class="profile-box">
+              <div class="image-box">
+                <img src="img/my-icon.jpg" class="profile-image">
+              </div>
+            </div>
+            <div class="profile-box">
+              <div class="content-left-top">
+                <h4 class="content-heading">MyName</h4>
+                <p class="content-text">
+                  Contrary to popular belief, Lorem Ipsum is not simply random<br>
+                  text. It has roots in a piece of classical Latin literature from 45<br>
+                  BC, making it over 2000 years old. Richard McClintock, a Latin<br>
+                  professor at Hampden-Sydney College in Virginia, looked up one<br>
+                  of the more obscure Latin words, consectetur
+                </p>
+              </div>
+              <div class="profile-text-bottom">
+                <h4 class="content-heading">MySkills</h4>
+                <p class="content-text">
+                  HTML/CSS,JavaScript,JQuery,PhotoShops
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content" id="contact">
+        <div class="main-area contact-area">
+          <h1 class="main-heading">Contact</h1>
+          <div class="color-bar"></div>
+          <p class="main-text">It is a long established fact that a reader will be distracted by the readable<br>
+            content of a page when looking at its layout.<br>
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+          </p>
+          <div class="content-box">
+            <div class="contact-box">
+              <div class="sns-box">
+                <div class="content-left-top">
+                  <h4 class="content-heading">Mail</h4>
+                  <a href="mailto:address"><p class="content-text">xxx@xxx.com</p></a>
+                </div>
+                <div>
+                  <h4 class="content-heading">Tel</h4>
+                  <a href="tel:000-0000-0000"><p class="content-text">000-0000-0000</p></a>
+                </div>
+              </div>
+            </div>
+            <div class="contact-box">
+              <div class="sns-box">
+                <h4 class="content-heading">SNS</h4>
+                <div class="sns">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <p>©2017 WebCamp</p>

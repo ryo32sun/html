@@ -95,6 +95,11 @@ header {
   color: #000;
 }
 
+.content-text {
+  font-size: 16px;
+  color:#000;
+}
+
 .portfolio-image-box {
   display: flex;
   flex-wrap: wrap;
@@ -165,4 +170,169 @@ header {
 .feature-text {
   font-size: 16px;
   color: #000;
+}
+
+.profile-area {
+  width: 1024px;
+}
+
+.content-box {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-box {
+  width: 512px;
+}
+
+.image-box {
+  margin: 0 auto;
+  width: 250px;
+}
+
+.profile-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.content-heading {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.content-left-top {
+  margin-bottom: 20px;
+}
+
+
+.sns > i {
+  font-size: 50px;
+}
+
+.sns > i:nth-child(2) {
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.contact-box {
+  width:400px;
+}
+
+.sns-box {
+  width: 200px;
+  margin: 0 auto;
+}
+
+
+footer {
+  background-color: #EC715F;
+  text-align: center;
+  line-height: 60px;
+}
+
+footer > p {
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+div > a {
+  color: #000;
+}
+
+@media screen and (max-width:767px) {
+  .header {
+    width: 90%;
+  }
+  
+  .main-visual {
+    background-image: url(img/code.png);
+  }
+
+  .main-visual-content {
+    padding-top: 200px;
+    text-align: center;
+  }
+
+  .main-visual-heading {
+    font-size: 40px;
+  }
+  
+  .main-visual-text {
+    font-size: 18px;
+  }
+  
+  .main-area {
+    width: 90%;
+  }
+  
+  .portfolio-image-box {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .portfolio-image:nth-child(1),
+  .portfolio-image:nth-child(3),
+  .portfolio-image:nth-child(5) {
+    display: none;
+  }
+  .portfolio-image:nth-child(2) {
+    margin: 0 0 10px 0;
+  }
+  .portfolio-image:nth-child(4) {
+    margin-bottom: 10px;
+  }
+  
+  .feature {
+    display: block;
+  }
+  
+  .feature-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .feature-content:nth-child(2) {
+    margin: 30px auto;
+  }
+  
+  .content-box {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .profile-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .content-heading {
+    margin-top: 20px;
+    text-align:center;
+  }
+  
+  .content-text {
+    text-align: center;
+  }
+
+  .sns > i {
+    font-size: 50px;
+  }
+  
+  .sns > i:nth-child(2) {
+    margin-left: 20px;
+    margin-right:20px;
+  }
+  
+  .contact-box {
+    width:90%;
+    margin: 0 auto;
+  }
+  
+ .sns {
+   display: flex;
+   justify-content: center;
+ }
 }
